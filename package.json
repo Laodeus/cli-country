@@ -1,0 +1,28 @@
+{
+  "name": "cli-country",
+  "version": "0.0.1",
+  "description": "country validator",
+  "main": "index.js",
+  "dependencies": {
+    "country-list": "^2.2.0",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon cli-holiday belgium france italy blabla fi be"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laodeus/cli-country.git"
+  },
+  "author": "Laodeus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laodeus/cli-country/issues"
+  },
+  "homepage": "https://github.com/Laodeus/cli-country#readme",
+  "bin": {
+    "cli-holiday": "./index.js"
+  }
+}
