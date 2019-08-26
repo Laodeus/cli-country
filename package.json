@@ -4,13 +4,14 @@
   "description": "country validator",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.19.0",
     "country-list": "^2.2.0",
     "nodemon": "^1.19.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon cli-holiday belgium france italy blabla fi be"
+    "start": "nodemon cli-holiday belgium 1930 france italy blabla fi be 2005"
   },
   "repository": {
     "type": "git",
