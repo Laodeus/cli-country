@@ -1,6 +1,6 @@
 {
   "name": "@laodeus/holidate",
-  "version": "0.0.6",
+  "version": "0.0.17",
   "description": "country holiday's validator",
   "main": "index.js",
   "dependencies": {
@@ -14,6 +14,6 @@
   "author": "Laodeus",
   "homepage": "https://github.com/Laodeus/cli-country#readme",
   "bin": {
-    "@laodeus/cli-holidate": "./index.js"
+    "holidate": "./index.js"
   }
 }

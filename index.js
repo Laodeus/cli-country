@@ -1,6 +1,4 @@
-#!/usr/bin/env node
 
-console.clear();
 console.log("So... It begin... brace yourself");
 
 const { getCode, getName } = require('country-list');
